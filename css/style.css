@@ -19,3 +19,27 @@ justify-content: center;
     margin: 0.5em;
 
 }
+
+.hiddenWord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.invisible {
+    display: none;
+}
+
+.letterBox {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    width: 1em;
+}
+
+.letterBox p {
+    padding: 0;
+    margin: 0;
+}
